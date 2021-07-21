@@ -4,13 +4,7 @@ import gym
 from gym import error, spaces
 from gym import utils
 from gym.utils import seeding
-
-try:
-    import atari_py
-except ImportError as e:
-    raise error.DependencyNotInstalled(
-            "{}. (HINT: you can install Atari dependencies by running "
-            "'pip install gym[atari]'.)".format(e))
+import atari_py
 
 
 def to_ram(ale):
