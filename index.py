@@ -1,10 +1,11 @@
 import numpy as np
 import os
 import gym
+import atari_py
 from gym import error, spaces
 from gym import utils
 from gym.utils import seeding
-import atari_py
+
 
 
 def to_ram(ale):
